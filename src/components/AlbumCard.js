@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AlbumCard = ({ album, match }) => <Link to={`${match.url}/${album.id}`} className="column card">
-    <img src={album.avatar} alt="" />
+    <img src={album.cover} alt="" />
     <p className="albums-card-name">{album.name}</p>
     <p className="albums-card-bandname">{album.albumname}</p>
     <div className="albums-card-divider"></div>

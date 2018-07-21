@@ -15,7 +15,7 @@ export default class App extends Component {
     albums: [
       {
         id: 2,
-        avatar: 'https://upload.wikimedia.org/wikipedia/fi/4/47/Eclipse-albumi.jpg',
+        cover: 'https://upload.wikimedia.org/wikipedia/fi/4/47/Eclipse-albumi.jpg',
         name: 'Amorphis',
         albumname: 'Eclipse',
         year: '2006',
@@ -24,7 +24,7 @@ export default class App extends Component {
       },
       {
         id: 3,
-        avatar: 'https://upload.wikimedia.org/wikipedia/fi/thumb/1/1d/Ghost_Reveries-cover.jpg/260px-Ghost_Reveries-cover.jpg',
+        cover: 'https://upload.wikimedia.org/wikipedia/fi/thumb/1/1d/Ghost_Reveries-cover.jpg/260px-Ghost_Reveries-cover.jpg',
         name: 'Opeth',
         albumname: 'Ghost Reveries',
         year: '2005',
@@ -33,7 +33,7 @@ export default class App extends Component {
       },
       {
         id: 4,
-        avatar: 'https://upload.wikimedia.org/wikipedia/fi/thumb/9/98/Amorphis_-_Queen_of_Time.jpg/260px-Amorphis_-_Queen_of_Time.jpg',
+        cover: 'https://upload.wikimedia.org/wikipedia/fi/thumb/9/98/Amorphis_-_Queen_of_Time.jpg/260px-Amorphis_-_Queen_of_Time.jpg',
         name: 'Amorphis',
         albumname: 'Queen of Time',
         year: '2018',
@@ -42,7 +42,7 @@ export default class App extends Component {
       },
       {
         id: 5,
-        avatar: 'https://upload.wikimedia.org/wikipedia/fi/thumb/7/78/Behemoth_Demigod.jpg/260px-Behemoth_Demigod.jpg',
+        cover: 'https://upload.wikimedia.org/wikipedia/fi/thumb/7/78/Behemoth_Demigod.jpg/260px-Behemoth_Demigod.jpg',
         name: 'Behemoth',
         albumname: 'Demigod',
         year: '2004',
