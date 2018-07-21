@@ -1,0 +1,55 @@
+$bgcolor: #ffffff;
+$color1: #707070;
+$color2: #25292e;
+$color3: #efefef;
+
+.card {
+    border-radius: 2px;
+    background-color: $bgcolor;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.05);
+    max-width: 228px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    img {
+        width: 50px;
+        height: auto;
+        display: block;
+        padding: 15px 0;
+    }
+  }
+  .albums-card-name {
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: $color2;
+  }
+  .albums-card-bandname {
+    font-size: 14px;
+    color: $color1;
+  }
+  .albums-card-divider {
+    border: solid 0.5px $color3;
+    width: 100%;
+    margin: 15px 0;
+  }
+  .albums-card-info {
+    display: flex;
+    p {
+        font-size: 20px;
+    }
+    div {
+        margin: 10px;
+        text-align: center;
+    }
+
+    span {
+        color: $color1;
+        font-size: 12px;
+    }
+  }
