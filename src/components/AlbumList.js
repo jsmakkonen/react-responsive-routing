@@ -20,7 +20,7 @@ const listOfRows = (albums, itemsPerRow, match) => {
 
 const AlbumList = ({ albums, itemsPerRow = 2, match }) => (
     <div className="cards">
-        <h3 className="is-size-3 has-text-centered">Albums</h3>
+        <h3 className="is-size-3 has-text-centered">Album list</h3>
         {listOfRows(albums, itemsPerRow, match)}
     </div>
 );

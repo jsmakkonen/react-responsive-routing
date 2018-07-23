@@ -3,6 +3,8 @@ $color1: #707070;
 $color2: #25292e;
 $color3: #efefef;
 
+$break-medium: 600px;
+
 .card {
     border-radius: 2px;
     background-color: $bgcolor;
@@ -19,6 +21,11 @@ $color3: #efefef;
         height: auto;
         display: block;
         padding: 15px 0;
+    }
+
+    @media screen and (max-width: $break-medium) {
+      width: 85%;
+      margin-top: 10px;
     }
   }
   .albums-card-name {

@@ -16,6 +16,10 @@
     height: auto;
     display: block;
     padding: 15px 0; }
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 85%;
+      margin-top: 10px; } }
 
 .albums-card-name {
   font-weight: 400;
@@ -56,6 +60,10 @@
 
 .album-details {
   width: 75%; }
+  @media screen and (max-width: 600px) {
+    .album-details {
+      width: 100%;
+      margin-left: 15px; } }
 
 footer {
   position: fixed;
